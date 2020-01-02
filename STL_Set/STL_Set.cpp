@@ -12,7 +12,7 @@ int main()
 		1)set, multipleset;
 		2)red-black tree;
 		3)insert;
-		4)count and find
+		4)count and find, find() will return an iterator
 		5)erase
 	    6)can not change and replace elements when using find
 	*/
@@ -68,6 +68,30 @@ int main()
 	*/
 
 	PritContents(msi);
+
+	set<int>::iterator i_found = si.find(1);
+	if (i_found != si.end())
+	{
+		cout << "it was found: " <<*i_found << endl;
+	}
+	else
+	{
+		cout << "it was not found" << endl;
+	}
+
+	int NumberToDelete;
+	cout << "input the number you want to delete: ";
+	cin >> NumberToDelete;
+
+	si.erase(NumberToDelete);
+	msi.erase(NumberToDelete);
+
+	PritContents(si);
+	cout << endl << endl;
+	PritContents(msi);
+
+	si.clear();
+	msi.clear();
 
 	return 0;
 }
