@@ -67,7 +67,7 @@ int main()
 	}
 	*/
 
-	PritContents(mii);
+	PritContents(msi);
 
 	return 0;
 }
@@ -75,6 +75,7 @@ int main()
 template <typename Container>
 void PritContents(const Container& c)
 {
+	/*
 	Container::const_iterator mii;
 	mii= c.begin();
 	
@@ -83,4 +84,13 @@ void PritContents(const Container& c)
 		cout << *mii << endl;
 		mii++;
 	}
+	*/
+
+	
+	for (auto i : c)
+	{
+		cout << i << endl;
+	}
+	
+	
 }

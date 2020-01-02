@@ -1,5 +1,5 @@
 ﻿  STL_Set.cpp
-D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(78,28): error C2760: syntax error: unexpected token 'identifier', expected ';'
-D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(78,28): message : This diagnostic occurred in the compiler generated function 'void PritContents(const Container &)'
-D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(78,2): error C7510: 'const_iterator': use of dependent type name must be prefixed with 'typename'
-D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(78,2): message : This diagnostic occurred in the compiler generated function 'void PritContents(const Container &)'
+D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(79,28): error C2760: syntax error: unexpected token 'identifier', expected ';'
+D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(79,28): message : This diagnostic occurred in the compiler generated function 'void PritContents(const Container &)'
+D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(79,2): error C7510: 'const_iterator': use of dependent type name must be prefixed with 'typename'
+D:\git\visual_studio_code\STL_Set\STL_Set\STL_Set.cpp(79,2): message : This diagnostic occurred in the compiler generated function 'void PritContents(const Container &)'
